@@ -6,13 +6,13 @@ weight : 1
 chapter : false
 
 ---
-# Chỉnh sửa password cho user bằng cách chỉnh sửa trong file /etc/shadow mà không dùng lệnh passwd
+# <span style="color: #778ba5;"> Chỉnh sửa password cho user bằng cách chỉnh sửa trong file /etc/shadow mà không dùng lệnh passwd </span>
 
 **Password** trong file /etc/shadow được lưu dưới dạng băm (hash), sử dụng một trong các thuật toán mã hóa an toàn. Kiểu mật khẩu này không lưu trữ mật khẩu rõ ràng (plain-text) mà là chuỗi đã được băm và có thể được định dạng với các thuật toán mã hóa khác nhau.
 
 - Mỗi chuỗi băm trong file /etc/shadow có một prefix để chỉ rõ loại thuật toán được sử dụng. Đây là một số dạng phổ biến:
 
-### Các loại mã hóa trong file /etc/shadow
+### <span style="color: #778ba5;"> Các loại mã hóa trong file /etc/shadow </span>
 **SHA-512 (Prefix \$6\$):**
 
 Đây là thuật toán mã hóa **SHA-512**, một trong những thuật toán mã hóa an toàn nhất hiện nay.
