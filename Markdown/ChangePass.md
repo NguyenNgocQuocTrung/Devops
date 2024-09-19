@@ -37,7 +37,7 @@ Ví dụ:
 
 \$1\$random_salt$hashed_password
 
-**DES (Không có prefix hoặc prefix là \$2\$):
+**DES (Không có prefix hoặc prefix là \$2\$):**
 
 Đây là dạng mã hóa cũ, sử dụng thuật toán DES. Hiện tại, nó được coi là kém an toàn và hiếm khi sử dụng.
 Ví dụ:
