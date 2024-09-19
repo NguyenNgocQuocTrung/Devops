@@ -6,7 +6,7 @@ weight : 1
 chapter : false
 
 ---
-# <span style="color: red;">Chỉnh sửa password cho user bằng cách chỉnh sửa trong file /etc/shadow mà không dùng lệnh passwd </span>
+# Chỉnh sửa password cho user bằng cách chỉnh sửa trong file /etc/shadow mà không dùng lệnh passwd 
 
 **Password** trong file /etc/shadow được lưu dưới dạng băm (hash), sử dụng một trong các thuật toán mã hóa an toàn. Kiểu mật khẩu này không lưu trữ mật khẩu rõ ràng (plain-text) mà là chuỗi đã được băm và có thể được định dạng với các thuật toán mã hóa khác nhau.
 
