@@ -1,0 +1,33 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36 Edg/128.0.0.0" version="24.7.6">
+  <diagram id="Ht1M8jgEwFfnCIfOTk4-" name="Page-1">
+    <mxGraphModel dx="1185" dy="813" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="O9OgHm2iZbb-iyq0lpKp-3" value="Commit&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="O9OgHm2iZbb-iyq0lpKp-1" target="O9OgHm2iZbb-iyq0lpKp-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="O9OgHm2iZbb-iyq0lpKp-1" value="Computer" style="image;points=[];aspect=fixed;html=1;align=center;shadow=0;dashed=0;image=img/lib/allied_telesis/computer_and_terminals/Personal_Computer.svg;" vertex="1" parent="1">
+          <mxGeometry x="170" y="390" width="45.6" height="61.800000000000004" as="geometry" />
+        </mxCell>
+        <mxCell id="O9OgHm2iZbb-iyq0lpKp-2" value="GitHub Repository" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=none;imageAspect=0;aspect=fixed;image=https://cdn1.iconfinder.com/data/icons/picons-social/57/github-128.png;labelBorderColor=default;" vertex="1" parent="1">
+          <mxGeometry x="520" y="375.9" width="90" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="O9OgHm2iZbb-iyq0lpKp-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="O9OgHm2iZbb-iyq0lpKp-4" target="O9OgHm2iZbb-iyq0lpKp-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="O9OgHm2iZbb-iyq0lpKp-7" value="push automatically&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="O9OgHm2iZbb-iyq0lpKp-4" target="O9OgHm2iZbb-iyq0lpKp-6">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="250" y="296.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="O9OgHm2iZbb-iyq0lpKp-4" value="CodeBuild" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.codecommit;fillColor=#759C3E;gradientColor=none;labelBackgroundColor=none;labelBorderColor=#97D077;" vertex="1" parent="1">
+          <mxGeometry x="350" y="250" width="76.5" height="93" as="geometry" />
+        </mxCell>
+        <mxCell id="O9OgHm2iZbb-iyq0lpKp-6" value="ECR" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.ecr_registry;fillColor=#F58534;gradientColor=none;labelBorderColor=#FF9933;" vertex="1" parent="1">
+          <mxGeometry x="164.3" y="266.5" width="57" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
